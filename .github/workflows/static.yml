@@ -1,0 +1,29 @@
+name: Deploy to Ubuntu Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          repository: sprintug/nova-website
+          ref: ${{ github.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use the default GitHub token for authentication
+
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          username: ${{ secrets.SERVER_USER }}
+          host: ${{ secrets.REMOTE_HOST }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          port: ${{ secrets.SERVER_PORT }}
+          script: |
+            cd /home/sprintdevs/sprintUG/nova-website
+            git pull origin develop
+           
