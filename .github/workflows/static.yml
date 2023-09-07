@@ -25,5 +25,5 @@ jobs:
           port: ${{ secrets.SERVER_PORT }}
           script: |
             cd /home/sprintdevs/sprintUG/nova-website
-            git pull origin develop
+            git pull origin main
            
