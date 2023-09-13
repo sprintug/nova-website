@@ -717,8 +717,10 @@ div#preloader {
 
 .single-well ul li {
   color: #444;
-  display: block;
+  display: inline-block;
   padding: 5px 0;
+  margin: 10px;
+
   
 }
 
