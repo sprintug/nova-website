@@ -554,7 +554,7 @@ div#preloader {
 @media (max-height: 500px) {
   #hero {
     height: 150vh;
-    font-size: 24pxs;
+    font-size: 20px;
   }
 }
 
@@ -611,7 +611,7 @@ div#preloader {
 
 #hero p {
   width: 80%;
-  font-size: 38px;
+  font-size: 35px;
   line-height: 1.2;
   margin: 0 auto 30px auto;
   color: #fff;
@@ -712,14 +712,15 @@ div#preloader {
 
 .single-well>a img{
   display: block;
-  height: 420px;
+  height: 380px;
+  width: auto;
 }
 
 .single-well ul li {
   color: #444;
   display: inline-block;
-  padding: 5px 0;
-  margin: 10px;
+  /* padding: 5px 0; */
+  /* margin: 10px; */
 
   
 }
@@ -734,6 +735,7 @@ div#preloader {
 .single-well p {
   color: #444;
 }
+
 
 /*--------------------------------------------------------------
 # Services
