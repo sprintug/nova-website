@@ -50,10 +50,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto active" href="/#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="/#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="/#about">About</a></li>
+          <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="/#review">Projects</a></li>
+          <li><a class="nav-link scrollto" href="events.html">Events</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -231,13 +233,24 @@ Maintain and provide support for desktop apps.
                 <a class="services-icon" href="#">
                   <i class="bi bi-calendar4-week"></i>
                 </a>
+                <h4>Digital Marketing</h4>
+                <p>
+                  We offer a wide range of solutions to help you achieve online marketing goals
+                </p>
+              </div>
+            </div>
+            <!-- end about-details -->
+            <!-- <div class="services-details">
+              <div class="single-services">
+                <a class="services-icon" href="#">
+                  <i class="bi bi-calendar4-week"></i>
+                </a>
                 <h4>24/7 Support</h4>
                 <p>
                   will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                 </p>
               </div>
-            </div>
-            <!-- end about-details -->
+            </div> -->
           </div>
         </div>
       </div>
@@ -323,26 +336,80 @@ Maintain and provide support for desktop apps.
  
 
 
-    <!-- ======= Rviews Section ======= -->
-    <!-- <div class="reviews-area">
-      <div class="row g-0">
-        <div class="col-lg-6">
-          <img src="assets/img/about/2.jpg" alt="" class="img-fluid">
+    <!-- ======= Reviews Section ======= -->
+    <div id="review" class="reviews-area"></div>
+    <div class="section-headline text-center">
+      <h2>Projects</h2>
+    </div>
+    
+    <div id="eventCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- <ol class=" bg-blue carousel-indicators"> -->
+        <!-- <li data-bs-target="#eventCarousel" data-bs-slide-to="0" class="active"></li> -->
+        <!-- <li data-bs-target="#eventCarousel" data-bs-slide-to="1"></li> -->
+        <!-- Add more indicators as needed -->
+      </ol>
+    
+      <div class="carousel-inner">
+        <!-- First Event -->
+        <div class="carousel-item active">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <img src="assets/img/events/maven.png" alt="" class="img-fluid" height="100%" width="100%">
+            </div>
+            <div class="col-lg-6 work-right-text d-flex align-items-center">
+              <div class="px-5 py-5 py-lg-0">
+                <h2>Nova-Gen Hotel System</h2>
+                <h5>A hotel system manages reservations, guest check-ins/outs, room assignments, and billing.
+                   It tracks room availability, maintains guest records, and facilitates communication between hotel departments
+                   . It also offers services like online booking,
+                   payment processing.</h5>
+                <!-- <a href="#contact" class="ready- btn-get-started scrollto">More Events</a> -->
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6 work-right-text d-flex align-items-center">
-          <div class="px-5 py-5 py-lg-0">
-            <h2>working with us</h2>
-            <h5>Web Design, Ready Home, Construction and Co-operate Outstanding Buildings.</h5>
-            <a href="#contact" class="ready-btn scrollto">Contact us</a>
+        <!-- Second Event (Add more event items as needed) -->
+    <div class="carousel-item">
+      <!-- Content for the second event -->
+     
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <!-- <img src="assets/img/events/IMG_9827.jpg" alt="" class="img-fluid"> -->
+            <video autoplay muted height="100%" width="100%" controls className="video" id="myVideo">
+              <source src="assets/videos/nova-vid.mp4" type="video/mp4" />
+              
+            </video>
+          </video>
+          </div>
+          <div class="col-lg-6 work-right-text d-flex align-items-center">
+            <div class="px-5 py-5 py-lg-0">
+              <h2>Nova-Legal System</h2>
+              <h5>A legal system designed to manage bills and files streamlines financial transactions, 
+                tracks expenses, and maintains records of legal cases. And provides efficient document storage and retrieval, 
+                facilitating transparency,
+                 accountability, and organization within the legal Firm.</h5>
+              <!-- <a href="visually" class="ready- herobtn-get-started scrollto">More Events</a> -->
+            </div>
           </div>
         </div>
       </div>
-    </div> -->
+  
+  <!-- Controls for navigating events -->
+  <a class="carousel-control-prev" href="#eventCarousel" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#eventCarousel" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+</div>
     <!-- End Rviews Section -->
 
 
     <!-- ======= Suscribe Section ======= -->
-    <!-- <div class="suscribe-area">
+     <!-- <div class="suscribe-area">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
@@ -353,9 +420,11 @@ Maintain and provide support for desktop apps.
           </div>
         </div>
       </div>
-    </div>End Suscribe Section -->
+    </div> -->
 
-   <hr>
+    <!-- End Suscribe Section  -->
+
+   <!-- <hr> -->
 
     <!-- ======= Contact Section ======= -->
     <div id="contact" class="contact-area">
@@ -376,7 +445,7 @@ Maintain and provide support for desktop apps.
                 <div class="single-icon">
                   <i class="bi bi-phone"></i>
                   <p>
-                    Call: 0743196329<br>
+                    Call: 0326300303<br>
                     <span>Monday-Friday (9am-5pm)</span>
                   </p>
                 </div>
@@ -388,7 +457,7 @@ Maintain and provide support for desktop apps.
                 <div class="single-icon">
                   <i class="bi bi-envelope"></i>
                   <p>
-                    Email:hello@novageneration.tech<br>
+                    Email:social@novageneration.tech<br>
                     <span>Web: www.novagen.com</span>
                   </p>
                 </div>
@@ -477,21 +546,21 @@ Maintain and provide support for desktop apps.
                   <li class="text-light"><i class="bi bi-dot"></i> Customer-Centric Approach</li>
                   <a href="#"></a>
                 </ul>
-                <!-- <div class="footer-icons">
+                <div class="footer-icons">
                   <ul>
                     <li>
                     </li>
                     <li>
-                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="https://x.com/novagenug?s=11&t=wrOoAstm2DYtnpNJWx1eHw"><i class="bi bi-twitter"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="https://www.instagram.com/novagenug/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="bi bi-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                      <a href="https://api.whatsapp.com/send/?phone=%2B256701308142&text&type=phone_number&app_absent=0"><i class="bi bi-whatsapp"></i></a>
                     </li>
                   </ul>
-                </div> -->
+                </div>
               </div>
             </div>
           </div>
@@ -516,8 +585,8 @@ Maintain and provide support for desktop apps.
               <div class="footer-head">
               <div class="footer-contacts">
                 <h4>contact</h4>
-                <p><span>Tel:</span> 0743196329</p>
-                <p><span>Email:</span> hello@novageneration.tech</p>
+                <p><span>Tel:</span> 0326300303</p>
+                <p><span>Email:</span> social@novageneration.tech</p>
                 <p><span>Working Hours:</span> 9am-5pm</p>
               </div>
               </div>

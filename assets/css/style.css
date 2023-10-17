@@ -648,7 +648,7 @@ div#preloader {
 #hero .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
 #hero .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #hero .carousel-fade .carousel-inner .carousel-item-next,
@@ -674,7 +674,7 @@ div#preloader {
 
 #hero .carousel-control-next-icon,
 #hero .carousel-control-prev-icon {
-  background: none;
+  color: #00FFF2;
   font-size: 32px;
   line-height: 1;
 }
@@ -682,6 +682,7 @@ div#preloader {
 #hero .carousel-indicators li {
   cursor: pointer;
   list-style-type: none;
+  background-color: #00FFF2;
 }
 
 #hero .btn-get-started {
@@ -991,7 +992,7 @@ div#preloader {
 # Review
 --------------------------------------------------------------*/
 .reviews-area {
-  background: url(../img/background/reviews-bg.jpg);
+  background-color: #000;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1000,6 +1001,18 @@ div#preloader {
   width: 100%;
   height: auto;
   position: relative;
+}
+ 
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+    color:#00FFF2; 
+    /* background-color: #00FFF2; */
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
 }
 
 .work-left-text {
@@ -1011,17 +1024,17 @@ div#preloader {
 }
 
 .work-right-text h2 {
-  color: #fff;
+  color: #00FFF2;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .work-right-text h5 {
   color: #fff;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 34px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .work-right-text .sus-btn {
@@ -1039,6 +1052,16 @@ div#preloader {
 .single-awesome-4 .add-actions {
   padding: 10px 20px;
 }
+
+.myVideo{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  object-fit: contain;
+  transition: all 1.2s linear;
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -2186,7 +2209,7 @@ span.email-notes {
 
 .footer-icons ul li a {
   border: 1px solid #444;
-  color: #444;
+  color:#00FFF2;
   display: block;
   font-size: 16px;
   height: 40px;
@@ -2608,3 +2631,13 @@ span.email-notes {
     padding: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
