@@ -611,7 +611,7 @@ div#preloader {
 
 #hero p {
   width: 80%;
-  font-size: 35px;
+  font-size: 28px;
   line-height: 1.2;
   margin: 0 auto 30px auto;
   color: #fff;
@@ -742,10 +742,10 @@ div#preloader {
 # Services
 --------------------------------------------------------------*/
 .services-area{
-  background-color: #f9f9f9;
+  background-color: #000;
 }
 .services-icon {
-  color: #444;
+  color: #00FFF2;
   display: inline-block;
   font-size: 36px;
   line-height: 36px;
@@ -754,6 +754,7 @@ div#preloader {
 
 .section-headline.services-head>h2 {
   margin-bottom: 25px;
+  color: #fff;
 }
 
 .services-details {
@@ -763,7 +764,7 @@ div#preloader {
 
 .services-details:hover h4,
 .services-details:hover .services-icon {
-  color: #00FFF2;
+  color: #fff;
 }
 
 .row.second-row {
@@ -771,17 +772,17 @@ div#preloader {
 }
 
 .section-head>h2 {
-  color: #333;
+  color: #fff;
 }
 
 .single-services>h4 {
-  color: #444;
+  color: #00FFF2;
   font-size: 24px;
   font-weight: 500;
 }
 
 .single-services>p {
-  color: #333;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -1001,6 +1002,7 @@ div#preloader {
   width: 100%;
   height: auto;
   position: relative;
+ 
 }
  
  .carousel-control-prev-icon,
@@ -2169,7 +2171,7 @@ span.email-notes {
 }
 
 .footer-head h4 {
-  color: #ffff;
+  color: #00FFF2;
   font-size: 18px;
   letter-spacing: 2px;
   padding-bottom: 10px;
@@ -2244,7 +2246,7 @@ span.email-notes {
   font-weight: 700;
 }
 .footer-contacts h4{
-  color: #fff;
+  color: #00FFF2;
 }
 
 .popular-tag ul li {
